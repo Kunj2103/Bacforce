@@ -1,0 +1,70 @@
+.advantage{
+    width: 80%;
+    margin-inline: auto;
+    margin-top: 150px;
+}
+.advantage h2{
+    width: fit-content;
+    margin: auto;
+    font-size: 46px;
+    font-weight: lighter;
+    color: var(--text-color);
+}
+.advantage h2 span{
+    font-weight: bold;
+}
+.advantage > p{
+    padding-inline: 14rem;
+    margin-top: 40px;
+    font-size: 18px;
+    width: fit-content;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.advantage h3{
+    width: fit-content;
+    margin-inline: auto;
+    margin-top: 88px;
+    font-size: 32px;
+    color: var(--text-color);
+}
+
+.advantages-section{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content: space-between; */
+    gap: 20px;
+}
+.advantages-section .advantage-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 30%;
+    height: 160px;
+    padding-inline: 32px;
+    border: 2px solid #00000033;
+
+}
+.advantage-box p{
+    margin-top: 12px;
+}
+
+.advantage button{
+    width:288px;
+    height:60px;
+    color: #fff;
+    background-color: var(--blue);
+    margin-top: 42px;
+}
+.advantage-box:hover{
+    color: #fff;
+    background-color: var(--blue);
+    box-shadow: 0 0 30px var(--blue) ;
+}
+.advantage-box:hover .svg{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(7%) saturate(30%) hue-rotate(335deg) brightness(109%) contrast(107%);
+}

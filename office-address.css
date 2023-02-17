@@ -1,0 +1,92 @@
+#office-address {
+    height: 400px;
+    padding-top: 139px;
+    background: var(--gradient);
+    opacity: 1;
+    background-image: url('assests/Vector\ Smart\ Object.png');
+    background-size: 1023px 523px;
+    background-position: center;
+}
+
+#office-address>.country {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px
+}
+
+#office-address>.country>.box {
+    width: 200px;
+    height: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;  
+    gap: 20px;
+}
+
+#office-address>.contact1{
+    /* border: 1px solid; */
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#office-address>.contact1>.heading {
+    font-size: 32px;
+    color: var(--text-color);
+}
+
+
+#office-address>.contact1 > .number{
+    display: flex;
+    /* align-items: center; */
+    gap : 10px
+}
+
+#office-address>.contact1 > .email {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: row;
+    gap : 10px;
+
+}
+
+#office-address>.contact1 .sub2{
+    font: normal normal 900 22px/24px Lato;
+    cursor: pointer;
+}
+
+.email > .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: var(--blue);
+    cursor: pointer;
+}
+
+#office-address > .footer{
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap : 30px;
+    cursor: pointer;
+}
+
+#office-address > .footer > .social{
+    /* flex-basis: 50%; */
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.copyright{
+    width: fit-content;
+    margin: auto;
+}

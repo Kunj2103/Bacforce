@@ -1,0 +1,37 @@
+
+.client{
+    position: relative;
+    top: -60px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-inline: auto;
+    background-color: #fff;
+    box-shadow: 0 10px 60px #DDE7FB8F;
+    margin-bottom: 100px;
+}
+
+.client .inner-client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    margin-block:60px;
+    height: auto;
+}
+.client .inner-client h2{
+    font-size: 36px;
+    color: var(--text-color) ;
+}
+.client .inner-client p{
+    margin-block:13px;
+}
+
+.clients-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+

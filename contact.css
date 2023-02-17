@@ -1,0 +1,56 @@
+.contact{
+    height: 420px;
+    background-color: var(--text-color);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.contact > .heading{
+    font-size: 80px;
+width: 360px;
+height: 191px;
+font-weight: lighter;
+/* text-align: left; */
+letter-spacing: 1.6px;
+color: #FFFFFF;
+opacity: 1;
+}
+.contact #help{
+    display: flex;
+    gap:30px;
+}
+.contact #help > .details{
+    display: flex;
+    flex-direction: column;
+}
+.contact #help .details input{
+    padding: 10px;
+    align-self: flex-start;
+    width: 384px;
+    height: 50px;
+    margin-bottom: 35px;
+}
+.contact #help  textarea{
+    align-self: flex-start;
+    width: 384px;
+    height: 138px;
+    padding: 10px;
+    /* margin-left: 30px; */
+    margin-bottom: 35px;
+    resize: none;
+}
+#help div:nth-of-type(2){
+    /* width:25% ; */
+    display: flex;
+    flex-direction: column;
+}
+#help button{
+    width:162px;
+    height:60px;
+    margin-left: auto;
+    background-color: var(--green);
+    color: #fff;
+    border: none;
+}

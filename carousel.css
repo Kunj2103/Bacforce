@@ -1,0 +1,134 @@
+.carousel{
+    width: 100%;
+    background: var(--gradient);
+   overflow: hidden;
+}
+
+.carousel>h2{
+    margin-top: 130px;
+    width: fit-content;
+    margin-inline: auto ;
+    font-size: 46px;
+    font-weight: lighter;
+    color: var(--text-color);
+}
+.carousel>h2>span{
+    font-weight: bold;
+}
+
+.carousel>p{
+    font-size: 18px;
+    width: fit-content;
+    margin-top: 40px;
+    margin-inline: auto;
+    
+}
+.carousel>.carousel-container{
+    position: relative;
+    width: 200%;
+    top:0;
+    left: 0; 
+    margin-top: 72px;
+    margin-bottom: 48px;
+}
+
+.carousel>.carousel-container:hover{
+    animation: 10s slider; 
+}
+.carousel>.carousel-container:hover+.slider>.row1{
+    width: 16px;
+    height: 8px;
+    /* UI Properties */
+    background: var(--blue) 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 0.5;
+    transition: 10s slider;
+}
+.carousel>.carousel-container:hover+.slider>.row2{
+    width: 40px;
+    height: 8px;
+    /* UI Properties */
+    background: var(--blue) 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    transition: 10s slider;
+    opacity: 1;
+}
+
+
+@keyframes slider {
+    0%{
+        left: 0%;
+    }
+   
+    50%{
+        left: -50%;
+    }
+    
+    100%{
+        left: 0%;
+    }
+}
+
+.carousel>.carousel-container>.carousel-box{
+    display: inline-block;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    width: 443px;
+    height: 263px;
+    padding: 40px;
+    float: left;
+    background-color: #fff;
+}
+.carousel>.carousel-container>.carousel-box>p{
+    margin-top: 24px;
+}
+.b-1{
+    margin-left: 260px;
+    background: url(assests/1.png);
+    background-repeat: no-repeat;
+}
+.b-2{
+    background: url(assests/2.png);
+    background-repeat: no-repeat;
+}
+.b-3{
+    background: url(assests/3.png);
+    background-repeat: no-repeat;
+}
+.b-4{
+    background: url(assests/4.png);
+    background-repeat: no-repeat;
+}
+.b-5{
+    background: url(assests/5.png);
+    background-repeat: no-repeat;
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 82px;
+    gap: 8px;
+    margin-top: 335px;
+    padding-top: 48px;
+}
+.slider>.row1{
+    width: 40px;
+height: 8px;
+/* UI Properties */
+background: var(--blue) 0% 0% no-repeat padding-box;
+border-radius: 6px;
+}
+.slider>.row2{
+    width: 16px;
+height: 8px;
+/* UI Properties */
+background: var(--blue) 0% 0% no-repeat padding-box;
+border-radius: 6px;
+opacity: 0.5;
+}
+.slider>.check1:checked .carousel-container{
+    animation: 20s slider infinite;
+}
+

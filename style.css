@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap%27');
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    --blue:#0B5CAB;
+    --green:#278806;
+    --text-color:#032D60;
+    --gradient:linear-gradient(0.25turn,#fff,#DEEFFF);
+}
+body{
+    /* overflow-y: hidden; */
+    width: 100%;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+.nav-details{
+    /* height: 1080px; */
+    background:var(--gradient);
+    /* width: 100vw; */
+    width: 100%;
+    padding-bottom: 56px;
+}
+.nav-details nav{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 56px;
+    /* margin-top: 40px; */
+    padding-top: 40px;
+    /* border: 1px solid red; */
+    
+}
+.nav-details .nav-items{
+    display: flex;
+    align-items: center;
+    gap: 86px;
+}
+.nav-details nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 48px;
+    cursor: pointer;
+}
+.nav-details nav ul li{
+    font-size: 16pxs;
+}
+.nav-details nav button{
+    width: 227px;
+    height: 60px;
+    font-size: 14px;
+    border: none;
+    background-color: var(--blue);
+    color: #fff;
+    cursor: pointer;
+}
+
+.salesforce{
+    display: flex;
+        margin-block: 88px;
+        gap: 100px;
+    /* width: 100vw; */
+    /* overflow: hidden; */
+}
+.salesforce .salesforce-image{
+    /* width: fit-content;
+    width: 50%; */
+}
+.salesforce .salesforce-support{
+    align-self: center;
+    font-size: 24px;
+    /* margin-left: 50px; */
+    /* min-height: 715px; */
+    /* width: 40%; */
+    width: 728px;
+    /* border: 1px solid red; */
+}
+.salesforce .salesforce-support h1{
+    margin-bottom: 24px;
+    max-width: 455px;
+    width: fit-content;
+    max-height: 149px;
+    font-size: 60px;
+    color: #032D60;
+}
+.salesforce-support p{
+    width: fit-content;
+    /* margin-bottom: 32px; */
+    font-size: 24px;
+}
+.salesforce-support > p{
+    /* width: 90%; */
+    width: 691px;
+    height: auto;
+}
+
+.salesforce-support .inner-info{
+    margin-top: 40px;
+    /* width: 728px; */
+    width: 100%;
+    /* height: 237px; */
+}
+.inner-info p:first-child{
+    margin-bottom: 32px;
+    font-weight: bold;
+}
+.salesforce .salesforce-support button{
+    margin-top: 80px;
+    width: 288px;
+    height: 60px;
+    background-color: var(--green);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.salesforce .salesforce-support .inner-info .information::before{
+    content:url('assests/tick.png');
+    margin-right: 20px;
+}

@@ -1,0 +1,105 @@
+
+.sales-services, .faq-container{
+    width: 100%;
+    padding-inline: 260px;
+    background: var(--gradient);
+}
+.combiner{
+    display: flex;
+    justify-content: space-around;
+    margin-inline: auto;
+    margin-top: 130px;
+    gap: 60px;
+}
+
+.combiner .left-part{
+    margin-top: 100px;
+    margin-right: 170px;
+    padding-bottom: 80px;
+}
+.combiner .left-part h2{
+    font-size: 46px;
+    font-weight: lighter;
+    color: #032D60;
+    text-transform: capitalize;}
+
+.combiner>.left-part>.faq-heading{
+    width: 460px;
+    height: 129px;
+    font-size: 46px;
+    font-weight: lighter;
+    color: #032D60;
+    text-transform: capitalize;
+}
+.combiner>.left-part>p{
+    margin-top: 24px;
+    margin-bottom: 48px;
+    font-size: 18px;
+}
+.combiner>.left-part>button{
+    width: 268px;
+    height: 60px;
+    background-color: var(--green);
+    color: #fff;
+}
+.combiner>.left-part>.faq-btn{
+    width: 152px;
+    height: 60px;
+    background-color: var(--blue);
+    color: #fff;
+}
+.combiner .left-part>h2>span{
+    font-weight: bold;
+}
+
+#accordian,#faq{
+    margin: 100px auto;
+    width: 600px;
+}
+
+#accordian li,#faq li{
+    list-style:none;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 50px 60px #0000000D;;
+}
+#accordian li label,
+#faq li label{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#accordian input[type="radio"],
+#faq input[type="radio"]{
+    display: none;
+}
+
+#accordian .content,
+#faq .content{
+    padding: 0 10px;
+    line-height: 25px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s;
+}
+
+#accordian input[type="radio"]:checked~ .content,
+#faq input[type="radio"]:checked~ .content{
+    max-height: 400px;
+}
+
+#accordian input[type="radio"]:checked + label>span{
+    transform: rotate(180deg);
+}
+#faq input[type="radio"]:checked + label>span{
+    transform: rotate(180deg);
+
+}
+

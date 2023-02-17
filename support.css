@@ -1,0 +1,117 @@
+.support{
+    margin-inline: 360px;
+    /* width: 80%; */
+    /* margin-inline: auto; */
+    margin-top: 150px;
+}
+.support h2{
+    width: fit-content;
+    margin-inline: auto;
+    color: #032D60;
+    font-size: 46px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+.support h2 span{
+    font-weight: bold;
+}
+
+.support > p{
+    margin-inline:56px;
+    font-size: 18px;
+    padding-inline: 40px;
+    margin-bottom: 24px;
+}
+
+.support-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+.support-cards .card{
+    /* width: 397px; */
+    width: 33%;
+    height: 550px;
+    /* height: 647px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #0000004D;
+    /* border-top: 8px solid  #EEF7FF; */
+    position: relative;
+}
+
+.support-cards .card::before{
+    content:'';
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 8px;
+    background-color:  #EEF7FF;
+}
+
+.card:hover{
+    border: 1px solid #0B5CAB;
+}
+
+.card:hover > h3{
+    color: #0B5CAB;
+}
+
+.card:hover > button{
+    background-color: var(--blue);
+    color: #fff;
+}
+
+.card:hover::before{
+    content:'';
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 8px;
+    background-color:  var(--blue);
+}
+.card h3{
+    width: fit-content;
+    margin-inline: auto;
+    margin-block: 30px;
+}
+.card p{
+    width: fit-content;
+    margin-inline: auto;
+}
+
+.card p:nth-child(2){
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.card p:nth-child(2) span{
+    font-size: 32px;
+}
+.card ul{
+    margin-top: 56px;
+}
+ .card:nth-last-child(-n+2) > ul li:first-child{
+    font-weight: bold;
+    list-style: none;
+    margin-left:42px;
+ } 
+
+.card ul li{
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+.card button{
+    margin-inline: 40px;
+    margin-bottom: 40px;
+    width: 317px;
+    height: 60px;
+    font-size: 16px;
+    color: #0B5CAB;
+    text-transform: uppercase;
+    background-color: #EEF7FF;
+    border: none;
+}

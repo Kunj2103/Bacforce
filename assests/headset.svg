@@ -1,0 +1,7 @@
+<svg id="headset" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <path id="Path_2355" data-name="Path 2355" d="M0,0H64V64H0Z" fill="none"/>
+  <rect id="Rectangle_147" data-name="Rectangle 147" width="11.585" height="14.896" rx="2" transform="translate(10.542 35.113)" fill="none" stroke="#0b5cab" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <rect id="Rectangle_148" data-name="Rectangle 148" width="11.585" height="14.896" rx="2" transform="translate(41.988 35.113)" fill="none" stroke="#0b5cab" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path id="Path_2356" data-name="Path 2356" d="M4,33.333v-8a21.333,21.333,0,0,1,42.667,0v8" transform="translate(6.667 6.667)" fill="none" stroke="#0b5cab" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <path id="Path_2357" data-name="Path 2357" d="M28,19c0,4.418-7.163,8-16,8" transform="translate(20 31.667)" fill="none" stroke="#0b5cab" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+</svg>
